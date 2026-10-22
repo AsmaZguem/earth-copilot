@@ -1,0 +1,33 @@
+[project]
+name = "earth-copilot"
+version = "0.1.0"
+description = "Natural-language satellite analysis with an LLM agent and RAG over remote-sensing documentation."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "pystac-client>=0.8",
+    "odc-stac>=0.3.10",
+    "xarray>=2024.1",
+    "numpy>=1.26",
+    "matplotlib>=3.8",
+    "pydantic-settings>=2.2",
+    "langchain-ollama>=0.2",
+    "langgraph>=0.2",
+]
+
+[project.optional-dependencies]
+groq = ["langchain-groq>=0.2"]
+gemini = ["langchain-google-genai>=2.0"]
+
+[dependency-groups]
+dev = ["jupyterlab>=4", "pytest>=8", "ruff>=0.6"]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/earth_copilot"]
+
+[tool.ruff]
+line-length = 100
