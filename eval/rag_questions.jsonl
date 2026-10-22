@@ -1,0 +1,35 @@
+{"question": "How can I map lakes and rivers in a satellite image?", "relevant": ["NDWI", "MNDWI", "AWEInsh", "AWEIsh", "ANDWI", "S2WI", "WRI", "MBWI", "NWI", "SWM", "WI2015", "FWEI", "TWI"]}
+{"question": "Extract water bodies in areas with mountain or building shadows", "relevant": ["AWEIsh"]}
+{"question": "Measure how muddy or turbid the water of a reservoir is", "relevant": ["NDTI"]}
+{"question": "Detect algae blooms or chlorophyll concentration in inland water", "relevant": ["NDCI", "FAI"]}
+{"question": "Find floating plastic or marine debris at sea", "relevant": ["PI", "FDI"]}
+{"question": "Detect an oil spill on the ocean surface", "relevant": ["OSI"]}
+{"question": "Map the extent of a flood", "relevant": ["FWEI", "MNDWI", "NDWI", "AWEInsh", "AWEIsh"]}
+{"question": "How healthy and dense is the vegetation in this field?", "relevant": ["NDVI", "EVI", "EVI2", "kNDVI", "NIRv", "SAVI"]}
+{"question": "Vegetation index that corrects for soil brightness in sparsely vegetated areas", "relevant": ["SAVI", "MSAVI", "OSAVI", "TSAVI", "ATSAVI", "SAVI2", "GOSAVI", "GSAVI"]}
+{"question": "Vegetation index that is less sensitive to atmospheric haze and aerosols", "relevant": ["ARVI", "EVI", "SARVI", "VARI", "GARI", "AFRI1600", "AFRI2100", "IAVI", "GRARI"]}
+{"question": "Monitor plant water content and drought stress", "relevant": ["NDMI", "MSI", "NDII", "GVMI", "DSI", "NMDI", "NDDI", "LSWI"]}
+{"question": "Use the red-edge bands to estimate leaf chlorophyll", "relevant": ["NDREI", "CIRE", "MCARI705", "MTCI", "IRECI", "RENDVI", "ND705", "NDVI705", "S2REP", "MSR705", "TCARIOSAVI705", "MCARIOSAVI705"]}
+{"question": "Vegetation index that uses the green band instead of the red band", "relevant": ["GNDVI", "GRVI", "CIG", "GOSAVI", "GSAVI", "GARI", "VIG"]}
+{"question": "Index that saturates less than NDVI over dense forest canopy", "relevant": ["EVI", "EVI2", "kNDVI", "kEVI", "WDRVI"]}
+{"question": "Track the yellow flowering of rapeseed or canola crops", "relevant": ["NDYI", "NRFIg", "NRFIr"]}
+{"question": "Follow vegetation phenology without interference from snow", "relevant": ["NDPI"]}
+{"question": "Map mangrove forests along the coast", "relevant": ["MI", "MVI"]}
+{"question": "Map the area burned by a forest fire", "relevant": ["NBR", "NBR2", "NBRplus", "NBRSWIR", "BAI", "BAIS2", "MIRBI", "CSI", "NDSWIR"]}
+{"question": "Burned area index designed specifically for Sentinel-2", "relevant": ["BAIS2"]}
+{"question": "Assess wildfire burn severity", "relevant": ["NBR", "NBR2", "NBRplus", "NBRSWIR"]}
+{"question": "Detect charred soil left after a fire", "relevant": ["CSI"]}
+{"question": "Map built-up areas and urban expansion around a city", "relevant": ["NDBI", "UI", "IBI", "BLFEI", "BRBA", "NBAI", "PISI", "VIBI", "VgNIRBI", "VrNIRBI"]}
+{"question": "Detect impervious surfaces such as roads and roofs", "relevant": ["PISI", "NDBI", "IBI", "BLFEI", "NBAI"]}
+{"question": "Find areas of bare soil without vegetation", "relevant": ["BI", "BaI", "DBSI", "EMBI", "MBI", "NDSoI"]}
+{"question": "Estimate the moisture of bare soil with shortwave infrared bands", "relevant": ["NSDS", "NSDSI1", "NSDSI2", "NSDSI3"]}
+{"question": "Map snow cover in the mountains", "relevant": ["NDSI", "NBSIMS", "NDSaII", "NDSII", "NDSInw", "S3", "SWI"]}
+{"question": "Distinguish glaciers from the surrounding terrain", "relevant": ["NDGlaI", "NDSaII", "NDSII", "NDSI"]}
+{"question": "Detect wet snow or snow mixed with water", "relevant": ["SWI"]}
+{"question": "Detect cloud shadows in the image", "relevant": ["CLOSDI", "CSISWIR", "CSIwoSWIR"]}
+{"question": "Identify tilled fields and crop residues", "relevant": ["NDTillI", "STI", "SNDTI", "NDTI4RE", "STI4RE", "SNDTI4RE"]}
+{"question": "Monitor vegetation regrowth on a rehabilitated mine site", "relevant": ["NDVI", "SAVI", "MSAVI", "OSAVI", "EVI"]}
+{"question": "Detect exposed rock and bare ground at an open-pit mine", "relevant": ["BI", "BaI", "DBSI", "EMBI", "MBI", "NDSoI"]}
+{"question": "Find tailings ponds and mine water", "relevant": ["NDPonI", "NDWI", "MNDWI", "AWEInsh", "AWEIsh"]}
+{"question": "Detect disease stress in crops", "relevant": ["REDSI", "DSWI1", "DSWI2", "DSWI3", "DSWI4", "DSWI5"]}
+{"question": "Track plant senescence at the end of the season", "relevant": ["PSRI"]}
